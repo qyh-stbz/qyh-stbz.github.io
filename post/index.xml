@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on qyh</title>
+    <link>https://qyh-stbz.github.io/post/</link>
+    <description>Recent content in Posts on qyh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Aug 2023 22:22:02 +0800</lastBuildDate><atom:link href="https://qyh-stbz.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>https://qyh-stbz.github.io/post/first/</link>
+      <pubDate>Tue, 01 Aug 2023 22:22:02 +0800</pubDate>
+      
+      <guid>https://qyh-stbz.github.io/post/first/</guid>
+      <description>配置 配置名称: .gitconfig 配置路径： windows: C:\Users\&amp;lt;用户名&amp;gt;\.gitconfig macos: /Users/&amp;lt;用户名&amp;gt;/.gitconfig linux: ~/.gitconfig 配置级别 仓库级别 local 【优先级最高】 local 的配置存放在当前仓库下，即：.git/config 下。
+可通过命令行 git config --local core.bare false ，即：
+# 编辑配置 # 当然，如果不知道本地配置的路径，可以使用这个函数查看。如果没有文件，会创建文件。 git config --local -e # 查看仓库本地配置 git config --local -l # 设置仓库本地配置 git config --local &amp;lt;moudle&amp;gt;.&amp;lt;property&amp;gt; &amp;lt;value&amp;gt; # 移除配置 git config --unset --local &amp;lt;moudle&amp;gt;.&amp;lt;property&amp;gt; 用户级别 global 【优先级次之】 global 的配置存放在用户目录下，即：~/.gitconfig下。
+# 编辑配置 git config --global -e # 查看仓库本地配置 git config --global -l # 设置仓库本地配置 git config --global &amp;lt;moudle&amp;gt;.</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://qyh-stbz.github.io/post/test/</link>
+      <pubDate>Tue, 01 Aug 2023 22:03:40 +0800</pubDate>
+      
+      <guid>https://qyh-stbz.github.io/post/test/</guid>
+      <description> A headline Some Content test symutaminus 为什么在网页中不能显示成markdown格式 $x+y_1=x_2\theta$ </description>
+    </item>
+    
+  </channel>
+</rss>

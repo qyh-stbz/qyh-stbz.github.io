@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [["$", "$"]],
+    },
+    displayMath: [
+      ["$$", "$$"],
+      ["\[\[", "\]\]"],
+    ],
+    svg: {
+      fontCache: "global",
+    },
+  };
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
+
+    <title>First // qyh</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.116.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.3c3c186cd62e563ad6e2f00a89dbee656ab912d1d46f856b5605dd0232521e2a.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="First"/>
+<meta name="twitter:description" content="配置 配置名称: .gitconfig 配置路径： windows: C:\Users\&lt;用户名&gt;\.gitconfig macos: /Users/&lt;用户名&gt;/.gitconfig linux: ~/.gitconfig 配置级别 仓库级别 local 【优先级最高】 local 的配置存放在当前仓库下，即：.git/config 下。
+可通过命令行 git config --local core.bare false ，即：
+# 编辑配置 # 当然，如果不知道本地配置的路径，可以使用这个函数查看。如果没有文件，会创建文件。 git config --local -e # 查看仓库本地配置 git config --local -l # 设置仓库本地配置 git config --local &lt;moudle&gt;.&lt;property&gt; &lt;value&gt; # 移除配置 git config --unset --local &lt;moudle&gt;.&lt;property&gt; 用户级别 global 【优先级次之】 global 的配置存放在用户目录下，即：~/.gitconfig下。
+# 编辑配置 git config --global -e # 查看仓库本地配置 git config --global -l # 设置仓库本地配置 git config --global &lt;moudle&gt;."/>
+
+    <meta property="og:title" content="First" />
+<meta property="og:description" content="配置 配置名称: .gitconfig 配置路径： windows: C:\Users\&lt;用户名&gt;\.gitconfig macos: /Users/&lt;用户名&gt;/.gitconfig linux: ~/.gitconfig 配置级别 仓库级别 local 【优先级最高】 local 的配置存放在当前仓库下，即：.git/config 下。
+可通过命令行 git config --local core.bare false ，即：
+# 编辑配置 # 当然，如果不知道本地配置的路径，可以使用这个函数查看。如果没有文件，会创建文件。 git config --local -e # 查看仓库本地配置 git config --local -l # 设置仓库本地配置 git config --local &lt;moudle&gt;.&lt;property&gt; &lt;value&gt; # 移除配置 git config --unset --local &lt;moudle&gt;.&lt;property&gt; 用户级别 global 【优先级次之】 global 的配置存放在用户目录下，即：~/.gitconfig下。
+# 编辑配置 git config --global -e # 查看仓库本地配置 git config --global -l # 设置仓库本地配置 git config --global &lt;moudle&gt;." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://qyh-stbz.github.io/post/first/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-08-01T22:22:02+08:00" />
+<meta property="article:modified_time" content="2023-08-01T22:22:02+08:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://qyh-stbz.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <span class="app-header-title">qyh</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium.</p>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">First</h1>
+      <div class="post-meta">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Aug 1, 2023
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          6 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h1 id="配置">配置</h1>
+<ul>
+<li>配置名称: <code>.gitconfig</code></li>
+<li>配置路径：
+<ol>
+<li><code>windows: C:\Users\&lt;用户名&gt;\.gitconfig</code></li>
+<li><code>macos: /Users/&lt;用户名&gt;/.gitconfig</code></li>
+<li><code>linux: ~/.gitconfig</code></li>
+</ol>
+</li>
+</ul>
+<h2 id="配置级别">配置级别</h2>
+<h3 id="仓库级别">仓库级别</h3>
+<blockquote>
+<p><code>local</code> 【优先级最高】
+<code>local</code> 的配置存放在当前仓库下，即：<code>.git/config</code> 下。</p>
+</blockquote>
+<p>可通过命令行 <code>git config --local core.bare false</code> ，即：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># 编辑配置</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 当然，如果不知道本地配置的路径，可以使用这个函数查看。如果没有文件，会创建文件。</span>
+</span></span><span style="display:flex;"><span>git config --local -e
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 查看仓库本地配置</span>
+</span></span><span style="display:flex;"><span>git config --local -l
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 设置仓库本地配置</span>
+</span></span><span style="display:flex;"><span>git config --local &lt;moudle&gt;.&lt;property&gt; &lt;value&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 移除配置</span>
+</span></span><span style="display:flex;"><span>git config --unset --local &lt;moudle&gt;.&lt;property&gt;
+</span></span></code></pre></div><h3 id="用户级别">用户级别</h3>
+<blockquote>
+<p><code>global</code> 【优先级次之】
+<code>global</code> 的配置存放在用户目录下，即：<code>~/.gitconfig</code>下。</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># 编辑配置</span>
+</span></span><span style="display:flex;"><span>git config --global -e
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 查看仓库本地配置</span>
+</span></span><span style="display:flex;"><span>git config --global -l
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 设置仓库本地配置</span>
+</span></span><span style="display:flex;"><span>git config --global &lt;moudle&gt;.&lt;property&gt; &lt;value&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 移除配置</span>
+</span></span><span style="display:flex;"><span>git config --unset --global &lt;moudle&gt;.&lt;property&gt;
+</span></span></code></pre></div><h3 id="系统级别">系统级别</h3>
+<blockquote>
+<p><code>system</code> 【优先级最低】
+<code>system</code> 的配置存放在 <code>/etc/gitconfig</code> 下。</p>
+</blockquote>
+<pre tabindex="0"><code># 编辑配置
+# 可以使用此命令查看配置文件的路径
+git config --system -e
+
+# 查看仓库本地配置
+git config --system -l
+
+# 设置仓库本地配置
+git config --system &lt;moudle&gt;.&lt;property&gt; &lt;value&gt;
+
+# 移除配置
+git config --unset --system &lt;moudle&gt;.&lt;property&gt;
+</code></pre><h2 id="配置详解">配置详解</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#f92672">[</span>core<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    safecrlf <span style="color:#f92672">=</span> false
+</span></span><span style="display:flex;"><span>    autocrlf <span style="color:#f92672">=</span> false
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Windows Terminal 下正常显示中文设置</span>
+</span></span><span style="display:flex;"><span>    quotepath <span style="color:#f92672">=</span> false
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>user<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    name <span style="color:#f92672">=</span> weschin
+</span></span><span style="display:flex;"><span>    email <span style="color:#f92672">=</span> kaffee@yeah.net
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>alias<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    s <span style="color:#f92672">=</span> status --short
+</span></span><span style="display:flex;"><span>    st <span style="color:#f92672">=</span> status
+</span></span><span style="display:flex;"><span>    cm <span style="color:#f92672">=</span> commit
+</span></span><span style="display:flex;"><span>    co <span style="color:#f92672">=</span> checkout
+</span></span><span style="display:flex;"><span>    br <span style="color:#f92672">=</span> branch
+</span></span><span style="display:flex;"><span>    mg <span style="color:#f92672">=</span> merge
+</span></span><span style="display:flex;"><span>    cp <span style="color:#f92672">=</span> cherry-pick
+</span></span><span style="display:flex;"><span>    df <span style="color:#f92672">=</span> diff
+</span></span><span style="display:flex;"><span>    l <span style="color:#f92672">=</span> log --graph --all --format<span style="color:#f92672">=</span>format:<span style="color:#e6db74">&#39;%C(bold red)%h%C(reset) - %C(bold yellow)%d%C(reset) %C(white)%s%C(reset) %C(bold blue)— &lt;%an&gt;%C(reset)%C(green)(%ar)%C(reset)&#39;</span> --abbrev-commit --date<span style="color:#f92672">=</span>relative
+</span></span><span style="display:flex;"><span>    lg <span style="color:#f92672">=</span> log
+</span></span><span style="display:flex;"><span>    last <span style="color:#f92672">=</span> log -1 HEAD
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>push<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 在当前分支push只会push到远程相同名称的分支下，如果没有则创建。防止跨分支推送。</span>
+</span></span><span style="display:flex;"><span>    default <span style="color:#f92672">=</span> current
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>color<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    ui <span style="color:#f92672">=</span> auto
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>color <span style="color:#e6db74">&#34;branch&#34;</span><span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    local <span style="color:#f92672">=</span> green
+</span></span><span style="display:flex;"><span>    current <span style="color:#f92672">=</span> green bold
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>http<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 如果是用 http 代理的情况下，这里必须设置不检查，否则无法拉取仓库。</span>
+</span></span><span style="display:flex;"><span>    sslVerify <span style="color:#f92672">=</span> false
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>credential<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 注意：这个配置是记住用户名和密码，是明文保存在 ~/.git-credential 中的，有安全隐患的。</span>
+</span></span><span style="display:flex;"><span>    helper <span style="color:#f92672">=</span> store
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 临时存储用户名密码，存储在内存中，绝不涉及磁盘。</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># --timeout：指定过期时间，单位秒。注意：如果你在超时时间内操作，会重新刷新这个时间。</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># git config --global credential.helper &#39;cache --timeout=10&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 如果要立马使缓存过期可以使用如下命令：</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 	git credential-cache exit</span>
+</span></span><span style="display:flex;"><span>    helper <span style="color:#f92672">=</span> cache --timeout<span style="color:#f92672">=</span><span style="color:#ae81ff">120</span>
+</span></span></code></pre></div><h2 id="常用配置">常用配置</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-.gitconfig" data-lang=".gitconfig"><span style="display:flex;"><span><span style="color:#66d9ef">[core]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">safecrlf</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">false
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    autocrlf = false
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    quotepath = false</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">[user]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">weschin
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    email = kaffee@yeah.net</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">[alias]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">s</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">status --short
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    st = status
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    cm = commit
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    co = checkout
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    br = branch
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    mg = merge
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    cp = cherry-pick
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    df = diff
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    sh = stash
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    l = log --graph --all --format=format:&#39;%C(bold red)%h%C(reset) - %C(bold yellow)%d%C(reset) %C(white)%s%C(reset) %C(bold blue)— &lt;%an&gt;%C(reset)%C(green)(%ar)%C(reset)&#39; --abbrev-commit --date=relative
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    last = log -1 HEAD</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">[push]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">default</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">current</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">[color]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">ui</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">auto</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">[color &#34;branch&#34;]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">local</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">green
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    current = green bold</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">[credential]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">helper</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">cache --timeout=28800</span>
+</span></span></code></pre></div><h2 id="忽略文件">忽略文件</h2>
+<ul>
+<li>文件名称： <code>.gitignore</code></li>
+<li>文件路径： 放在当前项目的根目录下</li>
+</ul>
+<pre tabindex="0"><code class="language-.gitignore" data-lang=".gitignore"># 一些规则
+
+# 1. 在已经忽略的文件夹下，不忽略指定的文件夹
+/node_modules/*
+!/node_modules/layer/
+
+# 2. 在已经忽略的文件夹下，不忽略指定的文件
+/node_modules/*
+!/node_modules/layer/layer.js
+</code></pre><h1 id="存储分类">存储分类</h1>
+<blockquote>
+<p>其实工作区可以包含未跟踪区，只是未跟踪区的文件无法被stash，所以分开展示。</p>
+<ul>
+<li><strong>未跟踪区：</strong> 只包含新添加的，未跟踪的文件。</li>
+<li><strong>工作区：</strong> 包含删除的文件，修改的文件。</li>
+<li><strong>暂存区：</strong> 像未跟踪文件、删除的文件、修改的文件经过add后，都会进入暂存区。</li>
+<li><strong>临时区：</strong> 临时区保存了工作区的修改状态。</li>
+<li><strong>本地分支：</strong> 暂存区提交后进入本地分支。</li>
+<li><strong>远程分支：</strong> 本地分支push后进入远程分支，一般远程分支在服务器上。</li>
+</ul>
+</blockquote>
+<p><img src=":/e290d85dbba045538d3489aa97912ea2" alt="image-20220717185523264.png"></p>
+<h2 id="未跟踪区ltgt暂存">未跟踪区&lt;=&gt;暂存</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 添加暂存</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 将【未跟踪的文件】添加到暂存区</span>
+</span></span><span style="display:flex;"><span>git add &lt;file&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 取消暂存</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 回退添加到暂存区的文件</span>
+</span></span><span style="display:flex;"><span>git restore --staged &lt;file&gt;
+</span></span></code></pre></div><h2 id="工作区暂存区">工作区=&gt;暂存区</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 添加暂存</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 将【删除的文件、修改的文件】添加到暂存区</span>
+</span></span><span style="display:flex;"><span>git add &lt;file&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 取消暂存</span>
+</span></span><span style="display:flex;"><span>git restore --staged &lt;file&gt;
+</span></span></code></pre></div><h2 id="暂存区ltgt本地分支">暂存区&lt;=&gt;本地分支</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 提交</span>
+</span></span><span style="display:flex;"><span>git cm -m <span style="color:#e6db74">&#34;brief meesage&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 取消提交</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># &lt;number&gt; 代表上&lt;number&gt;个版本</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># --soft 不会删除工作区的改动。只是撤销前面的commit，并且回到暂存区。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 可以指定&lt;file&gt;，如果不指定，回退所有的提交。</span>
+</span></span><span style="display:flex;"><span>git reset --soft HEAD~&lt;number&gt; <span style="color:#f92672">[</span>&lt;file&gt;<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># --hard 会删除工作区的改动，且撤销commit，直接回到工作区（也就是会撤销add）</span>
+</span></span><span style="display:flex;"><span>git reset --hard HEAD~&lt;number&gt;
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 撤回到指定commit提交前</span>
+</span></span><span style="display:flex;"><span>git reset --hard &lt;commit-id&gt;
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 撤销到和远程一样</span>
+</span></span><span style="display:flex;"><span>git reset --hard origin/master
+</span></span></code></pre></div><h2 id="工作区ltgt临时区">工作区&lt;=&gt;临时区</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 添加临时区</span>
+</span></span><span style="display:flex;"><span>git stash
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 取消临时区</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 将临时区内容恢复到工作区，并删除暂存区内容</span>
+</span></span><span style="display:flex;"><span>git stash pop
+</span></span></code></pre></div><h1 id="常用命令">常用命令</h1>
+<h2 id="仓库命令">仓库命令</h2>
+<h3 id="仓库初始化">仓库初始化</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 首先在远程git服务器（gitee.com/github.com）上，创建远程仓库。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#  1.如果没有项目，可以直接克隆建立的远程仓库</span>
+</span></span><span style="display:flex;"><span>git clone https://gitee.com/weschin/&lt;proj&gt;.git
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#  2. 如果本地已经有项目目录。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## 初始化仓库</span>
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## 添加远程版本库</span>
+</span></span><span style="display:flex;"><span>git remote add origin https://gitee.com/weschin/&lt;proj&gt;.git
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## 拉取或推送</span>
+</span></span><span style="display:flex;"><span>git pull origin master
+</span></span><span style="display:flex;"><span>git push origin master
+</span></span></code></pre></div><h3 id="修改仓库远程地址">修改仓库远程地址</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git remote set-url origin https://gitee.com/weschin/&lt;new-proj&gt;.git
+</span></span></code></pre></div><h3 id="修改注释">修改注释</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 代码已经提交到【本地分支】</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 修改最近一次提交的注释</span>
+</span></span><span style="display:flex;"><span>git cm --amend -m <span style="color:#e6db74">&#34;new commit message&#34;</span>
+</span></span></code></pre></div><h3 id="版本差异">版本差异</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 查看工作区和暂存区的版本差异</span>
+</span></span><span style="display:flex;"><span>git diff
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 查看暂存区和本地分支的版本差异</span>
+</span></span><span style="display:flex;"><span>git diff --staged
+</span></span><span style="display:flex;"><span>git diff --cached
+</span></span></code></pre></div><h3 id="撤销修改">撤销修改</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 撤销修改，但不更改存储区类型。即：原来在哪个存储区就在哪。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 	1. 当文件在工作区，则撤销当前文件修改。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 	2. 当文件在暂存区，且在工作区对此文件又做了修改，则撤销到暂存区文件的状态。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 也就是不管在哪个区，都会撤销之前对文件做的更改。</span>
+</span></span><span style="display:flex;"><span>git co -- &lt;file&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># git reset 相关命令 可查看【暂存区&lt;=&gt;本地分支】介绍</span>
+</span></span></code></pre></div><h2 id="临时存储区">临时存储区</h2>
+<blockquote>
+<p>工作区内容临时存储</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 工作区所有内容暂存临时区。git st：工作区是干净的</span>
+</span></span><span style="display:flex;"><span>git stash
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 查看当前的暂存列表。从【stash@{0}】开始</span>
+</span></span><span style="display:flex;"><span>git stash list
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 恢复临时区栈顶内容到工作区，并且删除临时区栈顶内容</span>
+</span></span><span style="display:flex;"><span>git stash pop
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 恢复临时区栈顶内容到工作区，并且不删除临时区栈顶内容</span>
+</span></span><span style="display:flex;"><span>git stash apply
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 恢复指定的临时区内容</span>
+</span></span><span style="display:flex;"><span>git stash apply stash@<span style="color:#f92672">{</span>&lt;number&gt;<span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 删除临时区【队头】内容，即：【stash@{0}】</span>
+</span></span><span style="display:flex;"><span>git stash drop
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 删除指定的临时区内容</span>
+</span></span><span style="display:flex;"><span>git stash drop stash@<span style="color:#f92672">{</span>&lt;number&gt;<span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 清除临时区全部内容</span>
+</span></span><span style="display:flex;"><span>git stash clear
+</span></span></code></pre></div><h2 id="标签管理">标签管理</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 创建一个标签</span>
+</span></span><span style="display:flex;"><span>git tag &lt;tag-name&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 查看所有标签</span>
+</span></span><span style="display:flex;"><span>git tag
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 通过【git log】查看&lt;commit-id&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 可以为指定的&lt;commit-id&gt;对应的版本打标签</span>
+</span></span><span style="display:flex;"><span>git tag &lt;tag-name&gt; &lt;commit-id&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 查看标签信息</span>
+</span></span><span style="display:flex;"><span>git show &lt;tag-name&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 创建带有说明的标签</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 	-a：指定标签</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 	-m：指定说明文字</span>
+</span></span><span style="display:flex;"><span>git tag -a &lt;tag-name&gt; -m &lt;comment&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 删除标签</span>
+</span></span><span style="display:flex;"><span>git tag -d &lt;tag-name&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 推送某个标签到远程</span>
+</span></span><span style="display:flex;"><span>git push origin &lt;tag-name&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 推送所有未推送的本地标签</span>
+</span></span><span style="display:flex;"><span>git push origin --tags
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 删除远程标签</span>
+</span></span><span style="display:flex;"><span>git push origin :refs/tags/&lt;tag-name&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 查看远程tag</span>
+</span></span><span style="display:flex;"><span>git ls-remote --tags origin
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 拉取远程tag</span>
+</span></span><span style="display:flex;"><span>git fetch origin tag &lt;tag-name&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 以&lt;tag-name&gt;标签为基准，创建一个&lt;branch-name&gt;分支</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 	git co &lt;tag-name&gt; 时候</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 	git会提醒处于&#34;detached HEAD&#34;状态。因为tag是一个快照，所以无法修改其中代码，如果需要修改应当建立分支</span>
+</span></span><span style="display:flex;"><span>git co -b &lt;branch-name&gt; &lt;tag-name&gt;
+</span></span></code></pre></div><h2 id="分支管理">分支管理</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 抓取远程分支。只更新到本地对应的分支</span>
+</span></span><span style="display:flex;"><span>git fetch origin <span style="color:#f92672">[</span>&lt;remote-branch-name&gt;<span style="color:#f92672">]</span>:<span style="color:#f92672">[</span>&lt;local-branch-name&gt;<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 拉取分支，其实 pull 就是 fetch 和 merge FETCH_HEAD 的简写</span>
+</span></span><span style="display:flex;"><span>git pull origin <span style="color:#f92672">[</span>&lt;remote-branch-name&gt;<span style="color:#f92672">]</span>:<span style="color:#f92672">[</span>&lt;local-branch-name&gt;<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 删除远程分支</span>
+</span></span><span style="display:flex;"><span>git push origin :&lt;remote-branch-name&gt;
+</span></span><span style="display:flex;"><span>git push --delete origin &lt;remote-branch-name&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 删除本地分支</span>
+</span></span><span style="display:flex;"><span>git br -D &lt;local-branch-name&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 切换到指定分支</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># origin 为远程仓库别名</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 	remotes/origin/master</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 	remotes/origin/release/1.0</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 切换到1.0</span>
+</span></span><span style="display:flex;"><span>git co release/1.0
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 重命名分支</span>
+</span></span><span style="display:flex;"><span>git br -m &lt;old-branch-name&gt; &lt;new-branch-name&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 设置【upstream】分支</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 当本地初始化，手动关联远程库时，或者检出新的分支需要推送到远程对应分支上时。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 第一次推送会报错：[fatal: 当前分支 master 没有对应的上游分支。]，此时需要为这个分支配置上游分支。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 此后，本地 &lt;local-branch-name&gt; 关联到远程同名的分支上</span>
+</span></span><span style="display:flex;"><span>git push -u &lt;remote-host-name&gt; &lt;local-branch-name&gt;
+</span></span></code></pre></div><h2 id="pull-和-fetch-区别"><code>pull</code> 和 <code>fetch</code> 区别</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 要理解 pull 和 fetch 区别，必须理解一个前置概念：跟踪远程分支</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 在项目目录下 .git/refs 保留 【heads】【remotes】【tags】的状态</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 比如：当前更新了远程 master 分支的状态，本地 *master 分支上的 commit-id = 0。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 那么：.git/refs/heads/master 保存的 hash 即：commit-id = 0。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 且：.git/refs/remotes/origin/master 保存的 commit-id = 0。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 此时远程服仓库，其他玩家更新了 master 使得 commit-id = 1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 1. 如果使用 pull</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 最终会更新 .git/refs/heads/master commit-id = 1 和 .git/refs/remotes/origin/master commit-id = 1</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 也就是它不仅更新了跟踪的远程分支，并且把更新下来的内容应用到了本地的分支上。也就是当前HEAD的指向也被更新了。</span>
+</span></span><span style="display:flex;"><span>git pull origin master
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 2. 如果使用 fetch</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 第一步只会更新 .git/refs/remotes/origin/master commit-id = 1</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 此时的 .git/refs/heads/master commit-id = 0 还没有变化</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 当用户执行 git mg origin/master 才会更改 .git/refs/heads/master</span>
+</span></span><span style="display:flex;"><span>git fetch origin <span style="color:#75715e"># 会更新所有远程的分支，最新的信息</span>
+</span></span><span style="display:flex;"><span>git fetch origin master <span style="color:#75715e"># 更新指定 master 分支</span>
+</span></span><span style="display:flex;"><span>git mg orgin/master
+</span></span></code></pre></div><h3 id="rebase"><code>rebase</code></h3>
+<blockquote>
+<p>减少分叉</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 设：当 master 分支从 Merge-C0 开始，连续更新了 Merge-C1、Merge-C2。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    用户 A 从 Merge-C2 引出一个分支 dev，并且在本地更新了2个版本：A-Merge-C3、A-Merge-C4。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 	 用户 B 向远程仓库 master 分支连续提交了 3 个版本：B-Merge-C5、B-Merge-C6、B-Merge-C7。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 此时用户 A 如果想将本地的 dev 分支合并到远程 master 上，必须：</span>
+</span></span><span style="display:flex;"><span>git co master
+</span></span><span style="display:flex;"><span>git pull origin master
+</span></span><span style="display:flex;"><span>git mg dev
+</span></span><span style="display:flex;"><span>git push origin master
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 这样会在合并 dev 和 远程 master 的过程中，产生新的 A-Merge-C8 ，整个图谱也会出现分叉</span>
+</span></span></code></pre></div><p><img src=":/e6bfc26b766d4dc2aaaa2fe33baeeca5" alt="image-20220718013753099.png"></p>
+<ul>
+<li>变基图谱</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 设：当 master 分支从 Rebase-C0 开始，连续更新了 Rebase-C1、Rebase-C2。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    用户 A 从 Rebase-C2 引出一个分支 dev，并且在本地更新了2个版本：A-Rebase-C3、A-Rebase-C4。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 	 用户 B 向远程仓库 master 分支连续提交了 3 个版本：B-Rebase-C5、B-Rebase-C6、B-Rebase-C7。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 此时用户 A 通过变基的方式将本地 dev 代码推到远程 master 上：</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 1. 从 dev 切换到 master，更新 master 到最新</span>
+</span></span><span style="display:flex;"><span>git co master
+</span></span><span style="display:flex;"><span>git pull master
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 2. 切换到将要【被合并的分支】dev，执行变基操作，即：变基【合并的分支】master</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 	 可以理解为：使得 master 成为 dev 的基石</span>
+</span></span><span style="display:flex;"><span>git co dev
+</span></span><span style="display:flex;"><span>git rebase master
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 如果有冲突，解决冲突</span>
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 继续变基，还有可能继续冲突，因为它将 dev 的多个commit，一个个合进 master的</span>
+</span></span><span style="display:flex;"><span>git rebase --continue
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 3. 切换到 master， 合并 dev，并推送到远程仓库</span>
+</span></span><span style="display:flex;"><span>git co master
+</span></span><span style="display:flex;"><span>git mg dev
+</span></span><span style="display:flex;"><span>git push
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 可以看出，变基过程中，先更新了 master，这会使得 B 提交的3个更新，在 A 之前。</span>
+</span></span></code></pre></div><p><img src=":/59dd58d9865044c4b66093bcb21cadfa" alt="image-20220718020216412.png"></p>
+<h3 id="cherry-pick"><code>cherry-pick</code></h3>
+<blockquote>
+<p>目的：就是将指定的提交（commit）应用于其他分支。</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 将提交 &lt;commit-id&gt; 应用到当前分支</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 这会在当前分支产生一个新的提交</span>
+</span></span><span style="display:flex;"><span>git cherry-pick &lt;commit-id&gt;
+</span></span></code></pre></div><h2 id="submodule"><code>submodule</code></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 这将会在根目录下 .gitmoudles 中添加子模块相关信息</span>
+</span></span><span style="display:flex;"><span>git submodule add https://git.test.com/testsubmodule
+</span></span></code></pre></div><p><img src=":/30430011402847db99ff77301c66ef8f" alt="image-20230102202917057.png"></p>
+<h3 id="删除子模块">删除子模块</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 1. 删除缓存</span>
+</span></span><span style="display:flex;"><span>git rm --cached &lt;submodule-name&gt;
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 2. 删除目录</span>
+</span></span><span style="display:flex;"><span>rm -rf &lt;submodule-name&gt;
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 3. 修改 .gitmodules</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## 即删除对应子模块相关信息</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 4. 删除 .git/modules 下子模块文件夹</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 5. 删除 .git/config 下相关子模块信息</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 可先尝试第 1 步，和这个命令。如果不行手动操作2345</span>
+</span></span><span style="display:flex;"><span>git submodule deinit &lt;submodule-name&gt;
+</span></span></code></pre></div><h3 id="拉取子模块">拉取子模块</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 直接克隆仓库及子模块</span>
+</span></span><span style="display:flex;"><span>git clone --recursive
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 克隆好的仓库拉取模块</span>
+</span></span><span style="display:flex;"><span>git submodule update --init --recursive
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 更新子模块</span>
+</span></span><span style="display:flex;"><span>git submodule update --recursive --remote
+</span></span></code></pre></div><h1 id="问题">问题</h1>
+<ol>
+<li>当 <code>git push</code> 卡住的时候</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># 可能是由于 http.postbuffer 不够大（默认 1M)</span>
+</span></span><span style="display:flex;"><span>git config --global http.postbuffer <span style="color:#ae81ff">134217728</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 如果还不行，删除配置</span>
+</span></span><span style="display:flex;"><span>git config --global --unset http.postbuffer
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 使用 ssh 的形式上传</span>
+</span></span><span style="display:flex;"><span>git remote set-url origin git@gitee.com:xxx
+</span></span></code></pre></div><ol start="2">
+<li>
+<p>当使用 <code>ssh</code> 形式拉取代码时
+需要在 <code>$HOME/.ssh</code> 配置 <code>id_rsa id_rsa.pub</code>。</p>
+</li>
+<li>
+<p>当产生 <code>.ssh/id_rsa&quot;: bad permissions</code> 报错
+则表明 id_rsa 的权限不对，需要修改权限</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>chmod <span style="color:#ae81ff">600</span> ~/.ssh/id_rsa ~/.ssh/id_rsa.pub
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 如有必要，还需要修改</span>
+</span></span><span style="display:flex;"><span>chmod <span style="color:#ae81ff">644</span> ~/.ssh/known_hosts
+</span></span></code></pre></div>
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
