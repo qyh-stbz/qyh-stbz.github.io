@@ -2,17 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>qyh</title>
-    <link>https://qyh-stbz.github.io/</link>
+    <link>http://qyh-stbz.github.io/</link>
     <description>Recent content on qyh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Aug 2023 22:22:02 +0800</lastBuildDate><atom:link href="https://qyh-stbz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Aug 2023 20:50:57 +0800</lastBuildDate><atom:link href="http://qyh-stbz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EAI</title>
+      <link>http://qyh-stbz.github.io/post/eai/</link>
+      <pubDate>Thu, 03 Aug 2023 20:50:57 +0800</pubDate>
+      
+      <guid>http://qyh-stbz.github.io/post/eai/</guid>
+      <description>具身智能 REVERIE：真实室内环境中的远程具体视觉引用表达 具身智能导航： 初始引用对象不可见 候选图像并非单个图像，可能是所有视点的全景图 观察角度和视点不同，导致视觉外观差异大 数据集REVERIE中根据自然语言指令，得出目标物体的检测边界框，但描述的事情并不会发生 REVERIE中的模型 输入：当前视点观察到的全景图像、语言指令 模块化组件： Rel Module: 与其他对象的关系 Loc Module: 位置 Sub Module: 主题外观 交互模块 导航模块 </description>
+    </item>
+    
     <item>
       <title>First</title>
-      <link>https://qyh-stbz.github.io/post/first/</link>
+      <link>http://qyh-stbz.github.io/post/first/</link>
       <pubDate>Tue, 01 Aug 2023 22:22:02 +0800</pubDate>
       
-      <guid>https://qyh-stbz.github.io/post/first/</guid>
+      <guid>http://qyh-stbz.github.io/post/first/</guid>
       <description>配置 配置名称: .gitconfig 配置路径： windows: C:\Users\&amp;lt;用户名&amp;gt;\.gitconfig macos: /Users/&amp;lt;用户名&amp;gt;/.gitconfig linux: ~/.gitconfig 配置级别 仓库级别 local 【优先级最高】 local 的配置存放在当前仓库下，即：.git/config 下。
 可通过命令行 git config --local core.bare false ，即：
 # 编辑配置 # 当然，如果不知道本地配置的路径，可以使用这个函数查看。如果没有文件，会创建文件。 git config --local -e # 查看仓库本地配置 git config --local -l # 设置仓库本地配置 git config --local &amp;lt;moudle&amp;gt;.&amp;lt;property&amp;gt; &amp;lt;value&amp;gt; # 移除配置 git config --unset --local &amp;lt;moudle&amp;gt;.&amp;lt;property&amp;gt; 用户级别 global 【优先级次之】 global 的配置存放在用户目录下，即：~/.gitconfig下。
@@ -21,10 +30,10 @@
     
     <item>
       <title>Test</title>
-      <link>https://qyh-stbz.github.io/post/test/</link>
+      <link>http://qyh-stbz.github.io/post/test/</link>
       <pubDate>Tue, 01 Aug 2023 22:03:40 +0800</pubDate>
       
-      <guid>https://qyh-stbz.github.io/post/test/</guid>
+      <guid>http://qyh-stbz.github.io/post/test/</guid>
       <description> A headline Some Content test symutaminus 为什么在网页中不能显示成markdown格式 $x+y_1=x_2\theta$ 用户名和密码现在需要：qyh-stbz(不需要邮箱全名)和personal key </description>
     </item>
     

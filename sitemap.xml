@@ -2,20 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://qyh-stbz.github.io/post/first/</loc>
+    <loc>http://qyh-stbz.github.io/post/eai/</loc>
+    <lastmod>2023-08-03T20:50:57+08:00</lastmod>
+  </url><url>
+    <loc>http://qyh-stbz.github.io/post/</loc>
+    <lastmod>2023-08-03T20:50:57+08:00</lastmod>
+  </url><url>
+    <loc>http://qyh-stbz.github.io/</loc>
+    <lastmod>2023-08-03T20:50:57+08:00</lastmod>
+  </url><url>
+    <loc>http://qyh-stbz.github.io/post/first/</loc>
     <lastmod>2023-08-01T22:22:02+08:00</lastmod>
   </url><url>
-    <loc>https://qyh-stbz.github.io/post/</loc>
-    <lastmod>2023-08-01T22:22:02+08:00</lastmod>
-  </url><url>
-    <loc>https://qyh-stbz.github.io/</loc>
-    <lastmod>2023-08-01T22:22:02+08:00</lastmod>
-  </url><url>
-    <loc>https://qyh-stbz.github.io/post/test/</loc>
+    <loc>http://qyh-stbz.github.io/post/test/</loc>
     <lastmod>2023-08-01T22:03:40+08:00</lastmod>
   </url><url>
-    <loc>https://qyh-stbz.github.io/categories/</loc>
+    <loc>http://qyh-stbz.github.io/categories/</loc>
   </url><url>
-    <loc>https://qyh-stbz.github.io/tags/</loc>
+    <loc>http://qyh-stbz.github.io/tags/</loc>
   </url>
 </urlset>
