@@ -14,10 +14,10 @@
     
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="EAI"/>
-<meta name="twitter:description" content="具身智能 REVERIE：真实室内环境中的远程具体视觉引用表达 具身智能导航： 初始引用对象不可见 候选图像并非单个图像，可能是所有视点的全景图 观察角度和视点不同，导致视觉外观差异大 数据集REVERIE中根据自然语言指令，得出目标物体的检测边界框，但描述的事情并不会发生 REVERIE中的模型 输入：当前视点观察到的全景图像、语言指令 模块化组件： Rel Module: 与其他对象的关系 Loc Module: 位置 Sub Module: 主题外观 交互模块 导航模块 "/>
+<meta name="twitter:description" content="具身智能 REVERIE：真实室内环境中的远程具体视觉引用表达 具身智能导航： 初始引用对象不可见 候选图像并非单个图像，可能是所有视点的全景图 观察角度和视点不同，导致视觉外观差异大 数据集REVERIE中根据自然语言指令，得出目标物体的检测边界框，但描述的事情并不会发生 REVERIE中的模型 输入：当前视点观察到的全景图像、语言指令 模块化组件： Rel Module: 与其他对象的关系 Loc Module: 位置 Sub Module: 主题外观 交互模块 导航模块 远程具体引用表达的房间和对象感知知识推理 解决的问题： 有效的探索需要代理保持长期场景记忆力 要求代理具备视觉和语言跨模态理解力 有限的房间环境通过知识推理来学习实体之间的内外部联系 具体来说： 知识驱动的视觉和语言线索构成场景记忆标记 所有按时间顺序排序的记忆令牌同时被输入解码器以预测下一个动作 &hellip; 具有人在场景的具身智能导航代理的自然手势的交流学习 视觉、语言、推理===&gt;智能代理 提供一些代理模拟器用于通用智能任务 NavGPT：使用大型语言模型进行视觉和语言导航的显式推理 多模交互指令的具身智能机器人室内导航研究 自然语言、手势、声源感知 融合方法 数据集 落地场景、评价指标 "/>
 
     <meta property="og:title" content="EAI" />
-<meta property="og:description" content="具身智能 REVERIE：真实室内环境中的远程具体视觉引用表达 具身智能导航： 初始引用对象不可见 候选图像并非单个图像，可能是所有视点的全景图 观察角度和视点不同，导致视觉外观差异大 数据集REVERIE中根据自然语言指令，得出目标物体的检测边界框，但描述的事情并不会发生 REVERIE中的模型 输入：当前视点观察到的全景图像、语言指令 模块化组件： Rel Module: 与其他对象的关系 Loc Module: 位置 Sub Module: 主题外观 交互模块 导航模块 " />
+<meta property="og:description" content="具身智能 REVERIE：真实室内环境中的远程具体视觉引用表达 具身智能导航： 初始引用对象不可见 候选图像并非单个图像，可能是所有视点的全景图 观察角度和视点不同，导致视觉外观差异大 数据集REVERIE中根据自然语言指令，得出目标物体的检测边界框，但描述的事情并不会发生 REVERIE中的模型 输入：当前视点观察到的全景图像、语言指令 模块化组件： Rel Module: 与其他对象的关系 Loc Module: 位置 Sub Module: 主题外观 交互模块 导航模块 远程具体引用表达的房间和对象感知知识推理 解决的问题： 有效的探索需要代理保持长期场景记忆力 要求代理具备视觉和语言跨模态理解力 有限的房间环境通过知识推理来学习实体之间的内外部联系 具体来说： 知识驱动的视觉和语言线索构成场景记忆标记 所有按时间顺序排序的记忆令牌同时被输入解码器以预测下一个动作 &hellip; 具有人在场景的具身智能导航代理的自然手势的交流学习 视觉、语言、推理===&gt;智能代理 提供一些代理模拟器用于通用智能任务 NavGPT：使用大型语言模型进行视觉和语言导航的显式推理 多模交互指令的具身智能机器人室内导航研究 自然语言、手势、声源感知 融合方法 数据集 落地场景、评价指标 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://qyh-stbz.github.io/post/eai/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2023-08-03T20:50:57+08:00" />
@@ -67,7 +67,7 @@
 <li>数据集REVERIE中根据自然语言指令，得出目标物体的检测边界框，但描述的事情并不会发生</li>
 </ul>
 <h3 id="reverie中的模型">REVERIE中的模型</h3>
-<p><img src="../image.png" alt="Alt text"></p>
+<p><img src="image.png" alt="Alt text"></p>
 <ul>
 <li>输入：当前视点观察到的全景图像、语言指令</li>
 <li>模块化组件：
@@ -80,11 +80,60 @@
 <li>交互模块</li>
 <li>导航模块</li>
 </ul>
+<h3 id="远程具体引用表达的房间和对象感知知识推理">远程具体引用表达的房间和对象感知知识推理</h3>
+<ul>
+<li>解决的问题：
+<ul>
+<li>有效的探索需要代理保持长期场景记忆力</li>
+<li>要求代理具备视觉和语言跨模态理解力</li>
+<li>有限的房间环境通过知识推理来学习实体之间的内外部联系</li>
+</ul>
+</li>
+<li>具体来说：
+<ul>
+<li>知识驱动的视觉和语言线索构成场景记忆标记</li>
+<li>所有按时间顺序排序的记忆令牌同时被输入解码器以预测下一个动作</li>
+<li>&hellip;</li>
+</ul>
+</li>
+</ul>
+<h3 id="具有人在场景的具身智能导航代理的自然手势的交流学习">具有人在场景的具身智能导航代理的自然手势的交流学习</h3>
+<h3 id="视觉语言推理智能代理">视觉、语言、推理===&gt;智能代理</h3>
+<ul>
+<li>提供一些代理模拟器用于通用智能任务</li>
+</ul>
+<h3 id="navgpt使用大型语言模型进行视觉和语言导航的显式推理">NavGPT：使用大型语言模型进行视觉和语言导航的显式推理</h3>
+<h3 id="多模交互指令的具身智能机器人室内导航研究">多模交互指令的具身智能机器人室内导航研究</h3>
+<ul>
+<li>自然语言、手势、声源感知</li>
+<li>融合方法</li>
+<li>数据集</li>
+<li>落地场景、评价指标</li>
+</ul>
 
     </div>
     <div class="post-footer">
       
     </div>
+    <div class="post-password">
+      
+      <script>
+          (function(){
+              if (prompt('请输入文章密码') != 'qyh%qh1996'){
+                  alert('密码错误！');
+                  if (history.length === 1) {
+                      window.opener = null;
+                      window.open('', '_self');
+                      window.close();
+                  } else {
+                      history.back();
+                  }
+              }
+          })();
+      </script>
+      
+  </div>
+  
   </article>
 
     </main>
