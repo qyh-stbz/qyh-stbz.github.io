@@ -6,7 +6,32 @@
     <description>Recent content in Posts on qyh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Aug 2023 20:50:57 +0800</lastBuildDate><atom:link href="http://qyh-stbz.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Aug 2023 23:52:34 +0800</lastBuildDate><atom:link href="http://qyh-stbz.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>凸优化理论</title>
+      <link>http://qyh-stbz.github.io/post/convex/</link>
+      <pubDate>Tue, 08 Aug 2023 23:52:34 +0800</pubDate>
+      
+      <guid>http://qyh-stbz.github.io/post/convex/</guid>
+      <description>22/05/2023 00:03 定义：
+$$ \begin{aligned} &amp;amp;minimize \space f_0(x)\&amp;amp;subject \space to f_i(x)\le b_i \tag{1} \end{aligned}
+$$
+其中，$f_0(x)$是目标函数，$f_i(x)$是约束函数，设$x^*$为最优解，那么有：$\$对$\forall z$，受限于公式(1)：
+$$ f_1(z)\le b_1,f_2(z)\le b_2,&amp;hellip;,f_m(z)\le b_m \tag{2}
+$$
+都有：
+$$ f_0(z)\ge f_0(x^*)
+$$
+如果：
+$$ f_i(\alpha x+\beta y)=\alpha f_i(x)+\beta f_i(y)
+$$
+则以上问题叫做线性规划问题，此外若上述$f_i$都是凸函数，且对公式(2)放宽限制：
+$$ f_i(\alpha x+\beta y)\le \alpha f_i(x)+\beta f_i(y)
+$$
+其中$\alpha + \beta = 1,\alpha \ge 0,\beta \ge 0$ 由于任何线性规划问题都是凸优化问题，因此凸优化是线性规划的推广。
+$f(x)=\theta x_1+(1-\theta)x_2$</description>
+    </item>
+    
     <item>
       <title>EAI</title>
       <link>http://qyh-stbz.github.io/post/eai/</link>
