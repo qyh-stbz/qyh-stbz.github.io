@@ -14,7 +14,8 @@
       
       <guid>http://qyh-stbz.github.io/post/convex/</guid>
       <description>22/05/2023 00:03 定义：
-$$ \begin{aligned} &amp;amp;minimize \space f_0(x)\&amp;amp;subject \space to f_i(x)\le b_i \tag{1} \end{aligned}
+$$
+minimize \space f_0(x)\subject \space to f_i(x)\le b_i
 $$
 其中，$f_0(x)$是目标函数，$f_i(x)$是约束函数，设$x^*$为最优解，那么有：$\$对$\forall z$，受限于公式(1)：
 $$ f_1(z)\le b_1,f_2(z)\le b_2,&amp;hellip;,f_m(z)\le b_m \tag{2}
